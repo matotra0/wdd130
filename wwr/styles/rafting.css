@@ -8,14 +8,3 @@
     --padding: 1rem;
     --border: 1px solid rgb( 0 0 0 / 0.1);
 }
-
-.hero {
-    position: relative;
-}
-.hero  div h1, div article{
-    position: absolute;
-}
-
-.hero img{
-    float: right;
-}
