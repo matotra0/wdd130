@@ -8,3 +8,28 @@
     --padding: 1rem;
     --border: 1px solid rgb( 0 0 0 / 0.1);
 }
+
+.hero {
+    position: relative;
+    width: auto;
+}
+.hero img {
+    width: 100%;
+    display: block;
+}
+.hero h1 {
+    position: absolute;
+    color: var(--secondary-color);
+}
+.hero article {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:var(--primary-color);
+    padding: 15px;
+}
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+}
