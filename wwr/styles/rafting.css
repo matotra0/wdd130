@@ -91,7 +91,7 @@ figure{
 }
 .adventure img{
     max-width: 300px;
-    max-height: auto;
+    max-height: 200px;
 }
 .adventure figcaption{
     background-color: black;
