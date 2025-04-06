@@ -1,12 +1,12 @@
-:root{
-    --primary-color : #00916E;
-    --secondary-color : #FEEFE5;
-    --accent1-color : #FFCF00;
-    --accent2-color : #EE6123;
-    --heading-font : "Inter";
-    --text-font : "Roboto";
+:root {
+    --primary-color: #00916E;
+    --secondary-color: #FEEFE5;
+    --accent1-color: #FFCF00;
+    --accent2-color: #EE6123;
+    --heading-font: "Inter";
+    --text-font: "Roboto";
     --padding: 1rem;
-    --border: 1px solid rgb( 0 0 0 / 0.1);
+    --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 .hero {
@@ -14,10 +14,12 @@
     width: 100%;
     text-align: center;
 }
+
 .hero img {
     width: 100%;
     display: block;
 }
+
 .hero h1 {
     position: absolute;
     color: var(--secondary-color);
@@ -27,17 +29,19 @@
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0.7);
 }
+
 .hero article {
     position: absolute;
     bottom: 10%;
     background-color: rgba(0, 0, 0, 0.6);
-    color:var(--primary-color);
+    color: var(--primary-color);
     padding: 20px;
     width: 80%;
     max-width: 600px;
     border-radius: 8px;
     text-align: left;
 }
+
 .hero article img {
     float: right;
     width: 200px;
@@ -45,9 +49,11 @@
     margin-left: 15px;
     height: auto;
 }
+
 a {
     text-decoration: none;
 }
+
 header {
     margin: 1rem auto;
     display: grid;
@@ -57,31 +63,38 @@ header {
     max-width: 1000px;
     padding: 10px
 }
-header img { 
-    height: 50px; 
+
+header img {
+    height: 50px;
     width: auto;
 }
-header nav{
+
+header nav {
     display: flex;
     list-style: none;
-    padding: 0; 
-    margin: 0; 
+    padding: 0;
+    margin: 0;
     font-family: var(--heading-font);
 }
-.navigation ul { 
-    display: flex; 
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-.navigation li{
+
+.navigation li {
     flex: 1 1 auto;
 }
-.history { 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; }
-figure{
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure {
     border: gray solid;
     display: flex;
     flex-flow: column;
@@ -89,20 +102,47 @@ figure{
     max-width: 300px;
     margin: auto;
 }
-.adventure img{
+
+.adventure img {
     max-width: 300px;
     max-height: 200px;
 }
-.adventure figcaption{
+
+.adventure figcaption {
     background-color: black;
     color: white;
     padding: 3px;
     text-align: center;
 }
-footer{
-    display: flex; 
-    justify-content: space-between; align-items: center;
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.social img{
+
+.social img {
     width: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200rem;
+}
+
+form input,
+form textarea,
+form input[type="radio"] {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 1rem 0.5rem;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+    text-shadow: 2px white;
 }

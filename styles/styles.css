@@ -1,32 +1,60 @@
-
-main{
+main {
     max-width: 840px;
 }
-aside{
+
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0 / 0.2);
     padding: 1rem;
     background-color: #00ffff;
-    color: black; 
+    color: black;
 }
-aside img{
+
+aside img {
     width: 200px;
     height: auto;
 }
-main img{
+
+main img {
     width: 200px;
     height: auto;
 }
-p{
+
+p {
     padding: 0;
 }
-footer{
+
+footer {
     margin-top: 15px;
     border-top: 10px solid #000;
     text-align: center;
 }
-h1{
+
+h1 {
     margin-block: 0.67em;
     font-size: 2em;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-width: 1000px;
+    padding: 10px
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+header nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: var(--heading-font);
 }

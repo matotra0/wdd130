@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Rafting Project About Us Page" />
+    <meta name="description" content="Rafting Project Contact Us Page" />
     <meta name="author" content="Andriamihaja Matotra" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/rafting.css" />
-    <title>About Us Rapids</title>
+    <title>Contact Rapids</title>
   </head>
   <body>
     <header>
@@ -41,50 +41,37 @@
       </nav>
     </header>
     <main>
-      <div class="hero">
-        <img src="./images/hero.avif" alt="background img" />
-        <h1>Rapids</h1>
-        <article>
-          <img src="./images/happy.jpeg" alt="happy  working employee img" />
-          <p>
-            We only have one mission and that's to make you feel comfortable and
-            unstressed.
-          </p>
-        </article>
-      </div>
+      <h1>Contact Us</h1>
       <section>
-        <h2><strong> History </strong></h2>
-        <p class="history">
-          When I was young I feelt realy incomfortable and stressed when I
-          planed something. So I said to myself that one day I will create a
-          company which will do it for us.
-        </p>
+        <h2>Company Info</h2>
+        <p>address: Ambohidratrimo Alakamisy lot IV 44</p>
+        <p>Phone: +261 32 45 832 41</p>
+        <p>email: vaomihaja@gmail.com</p>
       </section>
-      <section class="adventure">
-        <h2>
-          <strong> Adventure Awaits You! </strong>
-        </h2>
-        <figure>
-          <img src="./images/img1.jpeg" alt="white water rafting img" />
-          <figcaption>Endless Splash</figcaption>
-        </figure>
-        <figure>
-          <img src="./images/img2.jpeg" alt="white water rafting img" />
-          <figcaption>Coolbeach</figcaption>
-        </figure>
-        <figure>
-          <img src="./images/img3.jpeg" alt="white water rafting img" />
-          <figcaption>Water Rodeo</figcaption>
-        </figure>
-        <figure>
-          <img src="./images/img4.jpeg" alt="white water rafting img" />
-          <figcaption>Gray Splash</figcaption>
-        </figure>
-        <figure>
-          <img src="./images/img5.jpeg" alt="white water rafting img" />
-          <figcaption>A contre sens</figcaption>
-        </figure>
+      <section>
+        <h2>send us a message</h2>
+        <form>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Adress</label>
+          <input type="email" id="email" name="email" />
+          <p>What is your purpose?</p>
+          <label >
+            <input type="radio" name="purpose" value="inquiry">General inquiry
+          </label>
+          <label >
+            <input type="radio" name="purpose" value="question">Reservation question
+          </label>
+          <label >
+            <input type="radio" name="purpose" value="suggestion">Website suggestion
+          </label>
+          <label for="message">Message:
+          </label>
+          <textarea name="message" id="message" rows="10" ></textarea>
+          <button type="submit"><strong>SUBMIT</strong></button>
+        </form>
       </section>
+      
     </main>
     <footer>
       <p>© 2025 Rapids Andriamihaja Matotra</p>
