@@ -9,6 +9,19 @@
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter';
+}
+
+p {
+    font-family: 'Roboto';
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -144,5 +157,10 @@ form button {
     font-size: 1.5rem;
     background-color: red;
     color: white;
-    text-shadow: 2px white;
+}
+
+iframe {
+    border: 3px solid black;
+    max-width: 600Px;
+    height: auto;
 }
