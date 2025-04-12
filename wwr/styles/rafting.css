@@ -144,6 +144,54 @@ form {
     max-width: 200rem;
 }
 
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+
+.newsletter form input,
+.newsletter form button {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.cta {
+    text-align: center;
+    padding: 2em;
+}
+
+.cta a {
+    background-color: #0077cc;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 2em;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
 form input,
 form textarea,
 form input[type="radio"] {
@@ -161,15 +209,18 @@ form button {
 
 iframe {
     border: 3px solid black;
-    max-width: 200px;
-    height: 400px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .trips-container {
     display: grid;
     grid-template-columns: repeat(auto-fit);
-    gap: 20px;
+    gap: 30px;
+    padding: 2rem;
 }
+
 
 .trips-table {
     width: 100%;
@@ -184,6 +235,22 @@ iframe {
     border-radius: 8px;
 }
 
+.trip {
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
 .trips-table th,
 .trips-table td {
     border: solid black 3px;
@@ -191,7 +258,13 @@ iframe {
     padding: 15px;
 }
 
-.trips img {
-    max-height: 300px;
-    max-width: 300px;
+.trip h3 {
+    margin-top: 0.5rem;
+    color: #2a9d8f;
+}
+
+.trip p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
