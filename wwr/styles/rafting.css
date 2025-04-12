@@ -162,5 +162,36 @@ form button {
 iframe {
     border: 3px solid black;
     max-width: 200px;
-    height: 200px;
+    height: 400px;
+}
+
+.trips-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    gap: 20px;
+}
+
+.trips-table {
+    width: 100%;
+    border: solid black 3px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.trips {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.trips-table th,
+.trips-table td {
+    border: solid black 3px;
+    text-align: center;
+    padding: 15px;
+}
+
+.trips img {
+    max-height: 300px;
+    max-width: 300px;
 }
